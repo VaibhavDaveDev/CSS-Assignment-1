@@ -1,0 +1,68 @@
+/* Body styling sets background and default font */
+body {
+    background-color: #D8DA3D;  
+    font-family: Arial, sans-serif; 
+}
+
+/* Container for main layout */
+.container {
+    width: 110%;  
+    margin: auto; 
+    padding-top: 20px; 
+}
+
+/* Heading styling */
+h1 {
+    color: #80007E; 
+}
+
+/* Sidebar navigation styling */
+.sidebar {
+    float: left;  
+    width: 200px; 
+}
+
+/* Sidebar link styling */
+.sidebar a {
+    display: block; 
+    background-color: white;
+    padding: 8px; 
+    margin: 8px 0; 
+    color: #80007E;
+    text-decoration: none; 
+    border-right: 20px solid black;
+}
+
+/* Main content area styling */
+.content {
+    margin-top: -35px;  /* Pulls content up to align with sidebar */
+    margin-left: 250px; 
+    text-align: justify; 
+    color: #80007E;
+}
+
+/* Paragraph styling within content */
+.content p {
+    white-space: nowrap; 
+    padding: 4px; 
+    overflow: hidden;
+    text-overflow: ellipsis;  
+    display: block; 
+    color: #80007E; 
+}
+
+/* Footer section styling */
+.footer {
+    font-style: italic;  
+    margin-top: 50px;  
+    border-top: 1px dashed black; 
+    padding-top: 20px;  
+    color: #80007E;  
+}
+
+/* Footer paragraph styling */
+.footer p {
+    display: inline;  
+    margin: 0;  
+    font-family: 'Brush Script MT', cursive;
+}
